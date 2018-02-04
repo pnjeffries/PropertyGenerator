@@ -1,0 +1,74 @@
+C:\Users\paul.jeffries\AppData\Local\Temporary Projects\PropertyGenerator\bin\Debug\PropertyGenerator.exe
+C:\Users\paul.jeffries\AppData\Local\Temporary Projects\PropertyGenerator\bin\Debug\PropertyGenerator.pdb
+C:\Users\paul.jeffries\AppData\Local\Temporary Projects\PropertyGenerator\bin\Debug\PropertyGenerator.xml
+C:\Users\paul.jeffries\AppData\Local\Temporary Projects\PropertyGenerator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\paul.jeffries\AppData\Local\Temporary Projects\PropertyGenerator\obj\x86\Debug\MainWindow.baml
+C:\Users\paul.jeffries\AppData\Local\Temporary Projects\PropertyGenerator\obj\x86\Debug\MainWindow.g.vb
+C:\Users\paul.jeffries\AppData\Local\Temporary Projects\PropertyGenerator\obj\x86\Debug\Application.g.vb
+C:\Users\paul.jeffries\AppData\Local\Temporary Projects\PropertyGenerator\obj\x86\Debug\PropertyGenerator_MarkupCompile.cache
+C:\Users\paul.jeffries\AppData\Local\Temporary Projects\PropertyGenerator\obj\x86\Debug\PropertyGenerator.g.resources
+C:\Users\paul.jeffries\AppData\Local\Temporary Projects\PropertyGenerator\obj\x86\Debug\PropertyGenerator.Resources.resources
+C:\Users\paul.jeffries\AppData\Local\Temporary Projects\PropertyGenerator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\paul.jeffries\AppData\Local\Temporary Projects\PropertyGenerator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\paul.jeffries\AppData\Local\Temporary Projects\PropertyGenerator\obj\x86\Debug\PropertyGenerator.exe
+C:\Users\paul.jeffries\AppData\Local\Temporary Projects\PropertyGenerator\obj\x86\Debug\PropertyGenerator.xml
+C:\Users\paul.jeffries\AppData\Local\Temporary Projects\PropertyGenerator\obj\x86\Debug\PropertyGenerator.pdb
+C:\Users\paul.jeffries\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.exe
+C:\Users\paul.jeffries\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.xml
+C:\Users\paul.jeffries\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.pdb
+C:\Users\paul.jeffries\Documents\PropertyGenerator\PropertyGenerator\bin\Debug\PropertyGenerator.exe
+C:\Users\paul.jeffries\Documents\PropertyGenerator\PropertyGenerator\bin\Debug\PropertyGenerator.pdb
+C:\Users\paul.jeffries\Documents\PropertyGenerator\PropertyGenerator\bin\Debug\PropertyGenerator.xml
+C:\Users\paul.jeffries\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\paul.jeffries\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\MainWindow.baml
+C:\Users\paul.jeffries\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\MainWindow.g.vb
+C:\Users\paul.jeffries\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\Application.g.vb
+C:\Users\paul.jeffries\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator_MarkupCompile.cache
+C:\Users\paul.jeffries\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.g.resources
+C:\Users\paul.jeffries\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.Resources.resources
+C:\Users\paul.jeffries\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\paul.jeffries\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\owner\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.exe
+C:\Users\owner\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.xml
+C:\Users\owner\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.pdb
+C:\Users\owner\Documents\PropertyGenerator\PropertyGenerator\bin\Debug\PropertyGenerator.exe
+C:\Users\owner\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\MainWindow.baml
+C:\Users\owner\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\MainWindow.g.vb
+C:\Users\owner\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\Application.g.vb
+C:\Users\owner\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator_MarkupCompile.cache
+C:\Users\owner\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.g.resources
+C:\Users\owner\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.Resources.resources
+C:\Users\owner\Documents\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.vbproj.GenerateResource.Cache
+C:\Users\owner\Documents\PropertyGenerator\PropertyGenerator\bin\Debug\PropertyGenerator.pdb
+C:\Users\owner\Documents\PropertyGenerator\PropertyGenerator\bin\Debug\PropertyGenerator.xml
+K:\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.exe
+K:\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.xml
+K:\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.pdb
+K:\PropertyGenerator\PropertyGenerator\bin\Debug\PropertyGenerator.exe
+K:\PropertyGenerator\PropertyGenerator\bin\Debug\PropertyGenerator.pdb
+K:\PropertyGenerator\PropertyGenerator\bin\Debug\PropertyGenerator.xml
+K:\PropertyGenerator\PropertyGenerator\obj\x86\Debug\MainWindow.baml
+K:\PropertyGenerator\PropertyGenerator\obj\x86\Debug\MainWindow.g.vb
+K:\PropertyGenerator\PropertyGenerator\obj\x86\Debug\Application.g.vb
+K:\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator_MarkupCompile.cache
+K:\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.g.resources
+K:\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.Resources.resources
+K:\PropertyGenerator\PropertyGenerator\obj\x86\Debug\GeneratedInternalTypeHelper.g.vb
+K:\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator_MarkupCompile.lref
+K:\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.vbproj.GenerateResource.Cache
+C:\Users\Paul\Documents\Work\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.exe
+C:\Users\Paul\Documents\Work\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.xml
+C:\Users\Paul\Documents\Work\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.pdb
+C:\Users\Paul\Documents\Work\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.vbprojResolveAssemblyReference.cache
+C:\Users\Paul\Documents\Work\PropertyGenerator\PropertyGenerator\obj\x86\Debug\MainWindow.g.vb
+C:\Users\Paul\Documents\Work\PropertyGenerator\PropertyGenerator\obj\x86\Debug\Application.g.vb
+C:\Users\Paul\Documents\Work\PropertyGenerator\PropertyGenerator\obj\x86\Debug\GeneratedInternalTypeHelper.g.vb
+C:\Users\Paul\Documents\Work\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator_MarkupCompile.cache
+C:\Users\Paul\Documents\Work\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator_MarkupCompile.lref
+C:\Users\Paul\Documents\Work\PropertyGenerator\PropertyGenerator\bin\Debug\PropertyGenerator.exe
+C:\Users\Paul\Documents\Work\PropertyGenerator\PropertyGenerator\bin\Debug\PropertyGenerator.pdb
+C:\Users\Paul\Documents\Work\PropertyGenerator\PropertyGenerator\bin\Debug\PropertyGenerator.xml
+C:\Users\Paul\Documents\Work\PropertyGenerator\PropertyGenerator\obj\x86\Debug\MainWindow.baml
+C:\Users\Paul\Documents\Work\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.g.resources
+C:\Users\Paul\Documents\Work\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.Resources.resources
+C:\Users\Paul\Documents\Work\PropertyGenerator\PropertyGenerator\obj\x86\Debug\PropertyGenerator.vbproj.GenerateResource.Cache

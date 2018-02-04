@@ -1,0 +1,151 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:PropertyGenerator"
+    Title="Property Generator" Height="287" Width="738" ShowInTaskbar="True" Background="WhiteSmoke" WindowStyle="ToolWindow">
+    <Grid Margin="2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <GroupBox Header="Input" Grid.Column="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Margin="2">Language:</TextBlock>
+                    <ComboBox Name="LanguageCB" Grid.Column="1" SelectedIndex="0" SelectionChanged="UpdatePreview">
+                        <ComboBoxItem Tag="Java">Java</ComboBoxItem>
+                        <ComboBoxItem Tag="VB">Visual Basic .NET</ComboBoxItem>
+                        <ComboBoxItem Tag="C#">C#</ComboBoxItem>
+                    </ComboBox>
+                </Grid>
+
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Margin="2">Property Name:</TextBlock>
+                    <TextBox Name="NameTB" Grid.Column="1" TextChanged="UpdatePreview"></TextBox>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Margin="2">Property Type:</TextBlock>
+                    <TextBox Name="TypeTB" Grid.Column="1" TextChanged="UpdatePreview">double</TextBox>
+                </Grid>
+
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Margin="2">Default Value:</TextBlock>
+                    <TextBox Name="ValueTB" Grid.Column="1" TextChanged="UpdatePreview"></TextBox>
+                </Grid>
+
+                <Grid Grid.Row="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Margin="2">Access Modifier:</TextBlock>
+                    <ComboBox Name="AccessCB" Grid.Column="1" SelectedIndex="0" SelectionChanged="UpdatePreview">
+                        <ComboBoxItem Tag="public">public</ComboBoxItem>
+                        <ComboBoxItem Tag="private">private</ComboBoxItem>
+                        <ComboBoxItem Tag="protected">protected</ComboBoxItem>
+                    </ComboBox>
+                    
+                </Grid>
+
+                <Grid Grid.Row="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Margin="2">Description:</TextBlock>
+                    <TextBox Name="DescriptionTB" Grid.Row="1" TextWrapping="Wrap" TextChanged="UpdatePreview" VerticalScrollBarVisibility="Auto"></TextBox>
+                </Grid>
+                
+                <Grid Grid.Row="6">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    
+                    <CheckBox Name="GetterCB" IsChecked="True" Margin="2" Checked="UpdatePreview" Unchecked="UpdatePreview">Create Getter</CheckBox>
+                    <CheckBox Name="SetterCB" IsChecked="True" Margin="2" Checked="UpdatePreview" Unchecked="UpdatePreview" Grid.Column="1">Create Setter</CheckBox>
+                    <CheckBox Name="TransientCB" IsChecked="False" Margin="2" Checked="UpdatePreview" Unchecked="UpdatePreview" Grid.Row="1" Grid.Column="1">Transient</CheckBox>
+                    <CheckBox Name="LazyCB" IsChecked="False" Margin="2" Checked="UpdatePreview" Unchecked="UpdatePreview" Grid.Row="1" Grid.Column="2" IsEnabled="{Binding ElementName=GetterCB, Path=IsChecked}">Lazy Initialization</CheckBox>
+                    <CheckBox Name="NotifyCB" IsChecked="False" Margin="2" Checked="UpdatePreview" Unchecked="UpdatePreview" Grid.Row="0" Grid.Column="2" IsEnabled="{Binding ElementName=SetterCB, Path=IsChecked}">Notify Changed</CheckBox>
+                    <CheckBox Name="StaticCB" IsChecked="False" Margin="2" Checked="UpdatePreview" Unchecked="UpdatePreview" Grid.Row="1" Grid.Column="0">Static</CheckBox>
+                </Grid>
+                
+                <Grid Grid.Row="7">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Grid.Column="0" Name="CopyButton" Click="CopyButton_Click">
+                        Copy
+                    </Button>
+                    
+                    <Button Grid.Column="1" Name="ClearButton" Click="ClearButton_Click">
+                        Clear
+                    </Button>
+                    
+                    <Button Grid.Column="2" Name="CloseButton" Click="CloseButton_Click">
+                        Close
+                    </Button>
+
+                </Grid>
+
+                
+            </Grid>
+            
+    
+        </GroupBox>
+        
+        <GroupBox Grid.Column="0" Header="Preview">
+            <!--<TextBox Name="PreviewTB" VerticalScrollBarVisibility="Auto">
+                
+            </TextBox>-->
+            <local:CodeEditor x:Name="PreviewTB" FontFamily="Consolas" IsReadOnly="True" VerticalScrollBarVisibility="Auto">
+                <RichTextBox.Resources>
+                    <Style TargetType="{x:Type Paragraph}">
+                        <Setter Property="Margin" Value="0"/>
+                        <Setter Property="TextIndent" Value="0"/>
+                    </Style>
+                </RichTextBox.Resources>
+            </local:CodeEditor>
+        </GroupBox>
+    </Grid>
+</Window>
