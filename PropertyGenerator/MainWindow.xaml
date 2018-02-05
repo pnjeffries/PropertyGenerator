@@ -49,9 +49,11 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="16"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock Margin="2">Property Type:</TextBlock>
                     <TextBox Name="TypeTB" Grid.Column="1" TextChanged="UpdatePreview">double</TextBox>
+                    <Button Grid.Column="2" Click="CopyToDefault_Click">V</Button>
                 </Grid>
 
                 <Grid Grid.Row="3">

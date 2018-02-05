@@ -6,6 +6,54 @@ PropertyGenerator
 </name>
 </assembly>
 <members>
+<member name="T:PropertyGenerator.My.MyWpfExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:PropertyGenerator.My.MyWpfExtension.Application">
+ <summary>
+ Returns the application object for the running application
+ </summary>
+</member>
+<member name="P:PropertyGenerator.My.MyWpfExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:PropertyGenerator.My.MyWpfExtension.User">
+ <summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member>
+<member name="P:PropertyGenerator.My.MyWpfExtension.Log">
+ <summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member>
+<member name="P:PropertyGenerator.My.MyWpfExtension.Windows">
+ <summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member>
+<member name="T:PropertyGenerator.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PropertyGenerator.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PropertyGenerator.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
 <member name="P:PropertyGenerator.CodeChunk.SubChunks">
  <summary>
  Properties and methods of this chunk (if the chunk is a class)
@@ -82,54 +130,6 @@ MainWindow
 <member name="M:PropertyGenerator.MainWindow.InitializeComponent">
 <summary>
 InitializeComponent
-</summary>
-</member>
-<member name="T:PropertyGenerator.My.MyWpfExtension">
- <summary>
- Module used to define the properties that are available in the My Namespace for WPF
- </summary>
- <remarks></remarks>
-</member>
-<member name="P:PropertyGenerator.My.MyWpfExtension.Application">
- <summary>
- Returns the application object for the running application
- </summary>
-</member>
-<member name="P:PropertyGenerator.My.MyWpfExtension.Computer">
- <summary>
- Returns information about the host computer.
- </summary>
-</member>
-<member name="P:PropertyGenerator.My.MyWpfExtension.User">
- <summary>
- Returns information for the current user.  If you wish to run the application with the current 
- Windows user credentials, call My.User.InitializeWithWindowsUser().
- </summary>
-</member>
-<member name="P:PropertyGenerator.My.MyWpfExtension.Log">
- <summary>
- Returns the application log. The listeners can be configured by the application's configuration file.
- </summary>
-</member>
-<member name="P:PropertyGenerator.My.MyWpfExtension.Windows">
- <summary>
- Returns the collection of Windows defined in the project.
- </summary>
-</member>
-<member name="T:PropertyGenerator.My.Resources.Resources">
-<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member>
-<member name="P:PropertyGenerator.My.Resources.Resources.ResourceManager">
-<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member>
-<member name="P:PropertyGenerator.My.Resources.Resources.Culture">
-<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
 </summary>
 </member>
 <member name="T:PropertyGenerator.XamlGeneratedNamespace.GeneratedInternalTypeHelper">

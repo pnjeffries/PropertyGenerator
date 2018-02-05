@@ -341,9 +341,8 @@ Class MainWindow
                 Else
                     sb.Append(" }")
                 End If
-                sb.AppendLine.AppendLine("}")
             End If
-
+            sb.AppendLine.AppendLine("}")
         End If
 
         Return sb.ToString
@@ -369,6 +368,14 @@ Class MainWindow
         LazyCB.IsChecked = False
         NotifyCB.IsChecked = False
         StaticCB.IsChecked = False
+    End Sub
+
+    Private Sub CopyToDefault_Click(sender As Object, e As RoutedEventArgs)
+        Dim str As String = TypeTB.Text
+        If str IsNot Nothing AndAlso str.Length > 0 Then
+
+            ValueTB.Text = "new " & str & "()"
+        End If
     End Sub
 
 End Class
